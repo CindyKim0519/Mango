@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* mangosans웹폰트 */
+@import url(https://db.onlinewebfonts.com/c/28cd2d1c6f94e83a67d26c546c20ff66?family=MangoSans+Regular);
+
+/* 공통 서식 */
+/* 1. 글자모양, 크기, 색상 */
+body{
+    font-family: 'MangoSans Regular', arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    overflow-x:hidden;
+}
+
+
+  /*2. 링크 글자모양, 색 */
+a{
+    font-family: 'MangoSans Regular', arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none; /*밑줄없음*/
+}
