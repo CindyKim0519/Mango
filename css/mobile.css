@@ -47,6 +47,16 @@ header>.group{
 .visual>h2{
     display:none;
 }
+.close{
+    background:#F7F8F8;
+    padding:10px 5px;
+    font-size:16px;
+    position:absolute;
+    top:78%; left:38%;
+    z-index:9800;
+    font-weight:bold;
+    border:1px solid #1E1E1E;
+}
 .swiper-slide{
     width:100%;
 }
@@ -78,7 +88,7 @@ header>.group{
 }
 .slide2{
     position:absolute;
-    left:5%; top:30%;
+    left:5%; top:25%;
 }
 .slide3{
     text-align:center;
@@ -237,7 +247,7 @@ header>.group{
 }
 .heritage_inner{
     position:absolute;
-    top:25%;left:10%;
+    top:20%;left:15%;
     background:rgba(0,0,0,0.6);
     width:231px;
     height:171px;
@@ -254,7 +264,7 @@ header>.group{
 }
 .text2{
     position:absolute;
-    top:40%; left:5%;
+    top:45%; left:5%;
     font-size:1.125rem;
     color:#F7F8F8;
 }
@@ -703,13 +713,23 @@ address{
 }
 .logo2{display:none;}
 /* top버튼 */
+#go-top{
+    position:fixed;
+    bottom:80px;right:80px;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.5s;
+   }
+#go-top.active{
+    opacity:1;
+    visibility:visible;
+   }
 i.fa-angle-up{
     color:#F7F8F8;
     background:#1E1E1E;
     padding:15px;
     font-size:30px;
     border-radius:50%;
-    position:fixed;
-    bottom:80px;right:50px;
+   
 }
 }

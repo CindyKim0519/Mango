@@ -71,3 +71,27 @@ $(document).ready(function(){
     });
 });
 
+// top 버튼
+document.addEventListener('DOMContentLoaded', ()=>{
+    let btt = document.querySelector('#go-top');
+    let scrollAmt;
+
+    window.addEventListener('scroll', ()=>{
+        scrollAmt = window.pageYOffset;
+        console.log(scrollAmt);
+
+        if(scrollAmt>300){
+            btt.className = 'active';
+        }else{
+            btt.classList.remove('active');
+        }
+    });
+    btt.addEventListener('click', (e)=>{
+        e.preventDefault();
+        window.scrollTo({
+            top:0,
+            left:0,
+            behavior:'smooth'
+        });
+    });
+})

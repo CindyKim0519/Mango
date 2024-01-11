@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/tablet.css" type="text/css">
     <link rel="stylesheet" href="./css/swiper.css" type="text/css">
     <link rel="stylesheet" href="./css/pc.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     
     <script src="./script/swiper.js"></script>
@@ -21,13 +21,14 @@
     <input type="checkbox" id="toggle">
     <header>
         <h1><a href="index.html" title="mango로고"><img src="./images/mango.svg" alt="mango로고"></a></h1>
-        <label for="toggle" class="total_btn"><img src="./images/menu.png" alt="" class="menu"></a></label>
+        <label for="toggle" class="total_btn"><img src="./images/menu.png" alt="" class="menu"></label>
         <p class="group">
             <a href="search.html" title="검색"><img src="./images/search.png" alt=""></a>
             <a href="login.html" title="로그인"><img src="./images/user.png" alt=""></a>
             <a href="wishlist.html" title="위시리스트"><img src="./images/heart.png" alt=""></a>
             <a href="shoppingbag.html" title="쇼핑백"><img src="./images/shopping-bag.png" alt=""></a>
         </p>
+       
 
         <div class="h_bottom">
             <nav class="gnb">
@@ -71,12 +72,14 @@
         </ul>
     </nav>
     </div>
+   
     </header>
 
     <main>
     <section class="visual">
         <h2>메인슬라이드</h2>
         <div class="visual_slide">
+            <a href="#" title="자세히보기" class="close">자세히보기</a>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="#" title="Jen Ceballos x mango"><img src="./images/pc_banner1.jpg" alt="Jen Ceballos x mango"></a>
@@ -137,7 +140,7 @@
         <h2>Heritage</h2>
         <p class="text2">MANGO의 오래된 역사&<br class="break">
         변함없는 MANGO의 가치</p>
-        <p class="text3"><a href="#" title="History"class="text4">History</a>&#x007C;<a href="#" title="Philosophy" class="text4">Philosophy</a></p>
+        <p class="text3"><a href="#" title="History" class="text4">History</a>&#x007C;<a href="#" title="Philosophy" class="text4">Philosophy</a></p>
         </div>
         <img src="./images/pc_heritage1.jpg" alt="Heritage" class="heritage_img"><div class="heritage_bg"></div></div>
     </section>
@@ -205,8 +208,8 @@
             </div>
             <div id="tabs-3">
                 <ul>
-                    <li class="item1"><img src="./images/pc_teen1.jpg" alt="퍼 이펙트 보머 자켓"><p class="caption">퍼 이펙트 보머 자켓</p</li>
-                   <li class="item2"><img src="./images/pc_teen2.jpg" alt="수트 팬츠"><p class="caption">수트 팬츠</p ></li>
+                    <li class="item1"><img src="./images/pc_teen1.jpg" alt="퍼 이펙트 보머 자켓"><p class="caption">퍼 이펙트 보머 자켓</p></li>
+                   <li class="item2"><img src="./images/pc_teen2.jpg" alt="수트 팬츠"><p class="caption">수트 팬츠</p></li>
                     <li class="item3"><img src="./images/pc_teen3.jpg" alt="면 치노"><p class="caption">면 치노</p></li>
                     <li class="item4"><img src="./images/pc_teen4.jpg" alt="후디 면 스웨트셔츠"><p class="caption">후디 면 스웨트셔츠</p></li>
                     <li class="item5"><img src="./images/pc_teen5.jpg" alt="가슴 포켓 오버셔츠"><p class="caption">가슴 포켓 오버셔츠</p></li>
@@ -318,7 +321,7 @@
         </div>
       
     </footer>
-    <a href="#" title="위로 바로가기"><i class="fa-solid fa-angle-up"></i></a>
+    <a href="#" id=go-top title="위로 바로가기"><i class="fa-solid fa-angle-up"></i></a>
     <script src="./script/script.js"></script>
     
 </body>
