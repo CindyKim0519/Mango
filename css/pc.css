@@ -317,12 +317,19 @@
         color:#F7F8F8;
     }
     .text3>a{
-        color:#F7F8F8;
+        color:#1E1E1E;
     }
     .text4{
         font-size:1.125rem;
+        border:1px solid #1E1E1E;
+        background:#fff;
+        padding:5px;
+        margin:0px 5px;
     }
-
+    .text4:first-child{
+        margin-left:0px;
+    }
+    
     /* 탭콘텐츠 */
     .trend{
         width:1025px;
@@ -583,11 +590,16 @@
         text-align:center;
         line-height:25px;
         padding-top:10px;
+        font-size:16px;
     }
     .box2{width:444px;
     text-align:center;
     line-height:25px;
-    padding-top:10px;}
+    padding-top:10px;
+    font-size:16px;}
+    .title{
+        font-weight:bold;
+    }
     
     /* instagram */
     .insta>li{
@@ -676,7 +688,7 @@
     }
     .list_m{
         border-right:1px solid #1E1E1E;
-        height:440px;
+        height:270px;
         padding-right:100px;
 
     }
@@ -694,7 +706,7 @@
         }
     .f_left{
         padding-right:80px;
-        width:200px; height:440px;
+        width:200px; height:270px;
         border-right:1px solid #1E1E1E;
     }
     

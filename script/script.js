@@ -94,4 +94,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
             behavior:'smooth'
         });
     });
-})
+});
+
