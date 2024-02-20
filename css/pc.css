@@ -60,6 +60,9 @@
         font-weight:bold;
         border:1px solid #1E1E1E;
     }
+    .close:hover{color:#fff;
+    background:#CB533A;
+border:1px solid #fff;}
     .swiper-slide{
         width:100%;
     }
@@ -258,27 +261,32 @@
         display:flex;
         justify-content:center;
         flex-wrap:wrap;
+        
     }
     
     .p_img{
-        width:233px;
-        height:323px;
-        padding-left:15px;
-        padding-bottom: 10px;
+        width:100%;
         box-sizing:border-box;
-    
+        display:block;
+        transition:0.5s;
+        
     }
-    
+    .product_l>li>a>img:hover{
+        scale:1.1;
+    }
     .text1{
         width:233px;
         text-align:center;
         padding-bottom:70px;
         font-size:1.125rem;
     }
-
-    .product_l>li:not(li:first-child){
-        padding:0px 0px 15px 18px;
+    .product_l>li{
+        width:23%;margin:0px 1%; 
+        box-sizing:border-box;
+        overflow:hidden;
+        margin-top:20px;
     }
+    
     /* heritage */
     .heritage{
         width:100%;
@@ -329,11 +337,12 @@
     .text4:first-child{
         margin-left:0px;
     }
-    
+    .text4:hover{color:#fff;
+        background:#CB533A;
+    border:1px solid #fff;}b
     /* 탭콘텐츠 */
     .trend{
         width:1025px;
-        margin:0 auto;
     }
     .on{
         border-bottom:1px solid #CB533A !important;
@@ -342,9 +351,12 @@
     .trend>h2{
         font-size:1.625rem;
         padding-left:15px;
+        width:1025px;
+        margin:0 auto;
     }
     .tab-wrapper{
         width:1025px; 
+        margin:0 auto;
     }
     #tabs-1>ul{
         width:90%;
@@ -392,20 +404,24 @@
         margin:0 auto;
     }
 
+    #tabs-1>ul>li:hover img, #tabs-2>ul>li:hover img,#tabs-3>ul>li:hover img,#tabs-4>ul>li:hover img{
+        scale:1.1;
+    }
+
     #tabs-1>ul>li>img{
-        width:100%; 
+        width:100%; transition:0.5s;
     }
     #tabs-2>ul>li>img{
-        width:100%; 
+        width:100%; transition:0.5s;
     }
     #tabs-3>ul>li>img{
-        width:100%; 
+        width:100%; transition:0.5s;
     }
     #tabs-4>ul>li>img{
-        width:100%; 
+        width:100%; transition:0.5s;
     }
     #tabs-1>ul>.item5>img{
-        width:100%; 
+        width:100%; transition:0.5s;
     }
     #tabs-1 .item1{
         grid-area:c01; 
@@ -563,17 +579,20 @@
         padding:10px 0px 10px 15px;
     }
     .look_img{
-        width:230px;
-        height:420px;
+        width:230px;     
+        display:block;
+        transition:0.5s;
     }
     .look_img2{
-        width: 444px;
-        height:417px;
+        width:444px;
+        height:420px;
+        display:block;    transition:0.5s;    
+   
+
     }
     .lookbook_m{
         width:1025px;
         margin:0 auto;
-        overflow:hidden;
 
     }
     .lookbook{
@@ -583,8 +602,10 @@
         flex-wrap:wrap;
     }
     .lookbook>li{
-        padding-left:15px;
+        margin:0px 1%;    
+        overflow:hidden; 
     }
+    .lookbook>li>a:hover img{scale:1.1;}
     .box1{
         width:230px;
         text-align:center;

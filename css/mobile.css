@@ -516,10 +516,11 @@ font-size:1rem;}
     box-sizing:border-box;
 }
 .insta>li{
-    position:relative;
+    position:relative;margin-bottom:10px;
 }
 .insta>li>img{
     width:100%;
+    
 
 }
 .instagram{
@@ -535,7 +536,7 @@ font-size:1rem;}
     
 }
 .insta>li{
-    width:48%;
+    width:47%;
 
 }
 .instagram>h2{
@@ -547,6 +548,9 @@ font-size:1rem;}
     padding-bottom:40px;
 }
 .insta>li:nth-child(2),.insta>li:nth-child(4),.insta>li:last-child{
+    margin-left:10px;
+}
+.insta>li:nth-child(1),.insta>li:nth-child(3),.insta>li:nth-child(5){
     margin-left:10px;
 }
 
