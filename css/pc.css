@@ -59,6 +59,7 @@
         z-index:9800;
         font-weight:bold;
         border:1px solid #1E1E1E;
+        transition:0.5s;
     }
     .close:hover{color:#fff;
     background:#CB533A;
@@ -88,21 +89,21 @@ border:1px solid #fff;}
         color:#F7F8F8;
     }
     .txt1{
-        font-size:70px;
+        font-size:40px;
         padding-bottom:10px;
     }
     .txt2{
-        font-size:30px;
+        font-size:20px;
         line-height:45px;
     }
     .slide2{
         position:absolute;
-        left:15%; top:25%;
+        left:30%; top:30%;
     }
     .slide3{
         text-align:center;
         background:rgba(30,30,30,.6);
-        width:500px; height:200px;
+        width:300px; height:150px;
         padding-top:10px;
         position:absolute;
         left:50%; top:45%;
@@ -111,7 +112,7 @@ border:1px solid #fff;}
     .slide4{
         text-align:center;
         background:rgba(30,30,30,.6);
-        width:500px; height:220px;
+        width:300px; height:140px;
         padding-top:10px;
         position:absolute;
         left:50%; top:43%;
@@ -333,6 +334,7 @@ border:1px solid #fff;}
         background:#fff;
         padding:5px;
         margin:0px 5px;
+        transition:0.5s;
     }
     .text4:first-child{
         margin-left:0px;

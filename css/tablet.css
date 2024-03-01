@@ -79,7 +79,7 @@
         color:#F7F8F8;
     }
     .txt1{
-        font-size:54px;
+        font-size:30px;
         padding-bottom:10px;
     }
     .txt2{
@@ -88,12 +88,12 @@
     }
     .slide2{
         position:absolute;
-        left:15%; top:20%;
+        left:15%; top:25%;
     }
     .slide3{
         text-align:center;
         background:rgba(30,30,30,.6);
-        width:300px; height:120px;
+        width:200px; height:120px;
         padding-top:10px;
         position:absolute;
         left:50%; top:45%;
@@ -102,7 +102,7 @@
     .slide4{
         text-align:center;
         background:rgba(30,30,30,.6);
-        width:300px; height:150px;
+        width:200px; height:130px;
         padding-top:10px;
         position:absolute;
         left:50%; top:43%;
