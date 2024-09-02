@@ -80,15 +80,18 @@ header>.group{
 }
 .slide1>p,.slide3>p,.slide4>p{
     color:#F7F8F8;
+    text-shadow:0px 0px 10px #333
 }
 .txt1{
     font-size:1.6rem;
     padding-bottom:10px;
 }
 .txt2{
-    font-size:1.125rem;
+    font-size:0.875rem;
     line-height:25px;
 }
+.size1{    font-size:0.875rem;
+    line-height:25px; width:450px;}
 .slide2{
     position:absolute;
     left:5%; top:25%;
@@ -521,17 +524,24 @@ font-size:1rem;}
     padding:0px 10px;
 
 }
+.overlay{
+    position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 317px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0,0,0,0.4);
+        opacity: 1;
+}
 .caption3{
-    position:absolute;
-    background-color:rgba(30,30,30,.4);
-    width:100%;
-    height:100%;
     color:#fff;
-    bottom:0%; left:0%;
-    text-align:center;
-    padding-top:40%;
     box-sizing:border-box;
     font-size:14px;
+    line-height:30px;
+    width:250px;
 }
 .insta>li{
     position:relative;margin-bottom:10px;
