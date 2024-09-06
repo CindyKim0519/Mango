@@ -235,11 +235,12 @@
     .product{
         width:100%;
         overflow:hidden;
-    
+        width:768px;margin:0 auto;
     }
     .product>h2{
-        padding:70px 0px 10px 15px;
+        padding:100px 0px 20px 35px;
         font-size: 1.625rem;
+        
     }
     .product_l{
         width:768px;
@@ -253,7 +254,8 @@
         padding-bottom: 10px;
         box-sizing:border-box;
     }
-    
+    .subtxt1{text-align:center;width:162px;font-size:18px;display:block;margin:20px 0px 0px 0px;}
+
     .text1{
         width:162px;
         text-align:center;
@@ -268,7 +270,7 @@
     /* heritage */
     .heritage{
         width:100%;
-        padding:70px 0px;
+        padding:30px 0px;
     }
     .heritage_m{
         position:relative;
@@ -333,9 +335,10 @@
         border-bottom:1px solid #CB533A !important;
         
     }
+    .trend{width:767px;margin:0 auto;}
     .trend>h2{
         font-size:1.625rem;
-        padding-left:15px;
+        padding-left:40px;
     }
     .tab-wrapper{
         width:100%; 
@@ -374,7 +377,7 @@
         position:relative;
         z-index:1;
         display:flex;
-        padding:20px 0px 20px 15px;
+        padding:20px 0px 30px 42px;
     }
     .tab-menu>li>a{
         margin-right:20px;
@@ -528,13 +531,14 @@
     }
     
     /* lookbook collection */
+    
     .lookbook_m>h2{
-        padding:70px 0px 0px 15px;
+        padding:100px 0px 20px 22px;
         font-size:1.625rem;
     }
     .lookbook_m>h3{
         font-size:1.125rem;
-        padding:10px 0px 10px 15px;
+        padding:0px 0px 20px 24px;
     }
     .look_img{
         width:172px;
@@ -548,11 +552,13 @@
         object-fit:cover;
     }
     .lookbook_m{
-        width:100%;
+        width:767px;
+        margin:0 auto;
         overflow:hidden;
     }
     .lookbook{
         display:flex;
+        justify-content:space-around;
         width:768px;
         flex-wrap:wrap;
     }
@@ -623,26 +629,34 @@
         justify-content: center;
         align-items: center;
         background: rgba(0,0,0,0.4);
-        opacity: 1;}
+        opacity: 0;
+        transition: opacity 0.2s;}
     .caption3{
         color:#fff;
         line-height:30px;
         font-size:1.125rem;
         width:200px;
     }
+    .insta>li:hover .overlay {
+        opacity: 1;
+ }
     
     /* footer 회사정보 */
     footer{
         width:100%;
         position:relative;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
     }
 
     .info{
         width:100%;
-        border-top:1px solid #1E1E1E;
-        border-bottom:1px solid #1E1E1E;
+        border-top:1px solid #808080;
+        border-bottom:1px solid #808080;
         text-align:center;
         line-height:50px;
+        margin-bottom:30px;
     }
     .f_bottom{
         width:768px;
@@ -661,42 +675,43 @@
         display:none;
     }
     .list_m{
-        border-right:1px solid #1E1E1E;
+        border-right:1px solid #808080;
         height:270px;
         padding-right:30px;
 
     }
     .list_m>ul{
         position:relative;
+        top:5px;
         display:block;
         display:flex;
     }
     .list_m>ul>li>label:hover{
         color:#CB533A;
     }
-    .list_m>ul>li{
-        /* border-bottom:1px solid #1E1E1E; */
-        text-indent:20px;
-        }
+    .list_m>ul>li:not(:last-child){
+        margin-right:50px;
+        padding-left:30px;
+    }
     .f_left{
         padding:0px 30px 0px 20px;;
         width:200px; height:270px;
-        border-right:1px solid #1E1E1E;
+        border-right:1px solid #808080;
     }
     
         
    
     .list>li>label{
         display:block;
+        font-weight:bold;
         font-size:18px;
+        margin-bottom:30px;
     }
     
     .sub0>li{
         /* border-top:1px solid #333; */
         /* border-bottom:1px solid #333; */
-        line-height:50px;
-        text-indent:20px;
-        
+    margin-bottom:30px;        
     }
     .sub0>li>a{
         color:#333;
@@ -716,9 +731,11 @@
         font-size:24px;
         color:#1E1E1E;
     }
-    .fa-brands:not(.fa-brands:last-child){
-        padding-right:15px;
-    }
+    .fa-facebook-f {
+        margin-left:50px;
+        }
+
+
     address{
         line-height:15px;
     }
@@ -726,7 +743,7 @@
         width:200px;
         line-height:20px;
         font-size:1rem;
-        padding-top:15px;
+        padding-top:20px;
     }
     
     .info{
@@ -737,13 +754,14 @@
         text-align:center;
     }
     .info1{
-        padding-right:5px;
+        padding-right:12px;
         border-right:1px solid #333;
     }
+    .info2{padding-left:9px;}
     .info>a{font-size:1.125rem;}
     .rights{
         width:185px;
-        padding:5px 0px 20px;
+        padding:20px 0px 0px;
         font-size:1rem;
     }
     #sub6,#sub7{
