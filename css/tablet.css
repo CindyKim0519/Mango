@@ -120,6 +120,8 @@
     .break{
         display:none;
     }
+    .mobileimg{display:none;}
+
     /* h_bottom서식 */
     .h_bottom{
         width:100%;height:50px;

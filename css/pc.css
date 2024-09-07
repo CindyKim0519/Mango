@@ -124,7 +124,7 @@ border:1px solid #fff;}
         left:50%; top:43%;
         transform:translate(-50%,-50%);
     }
-    
+    .mobileimg{display:none;}
     .break{
         display:none;
     }
@@ -318,7 +318,7 @@ border:1px solid #fff;}
     }
     .heritage_img{
         width:100%;
-        height:473px;
+        height:500px;
     }
     .text2{
         position:absolute;

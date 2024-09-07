@@ -117,6 +117,7 @@ header>.group{
 #left,#right{
     display:none;
 }
+.pcimg{display:none;}
 /* h_bottom서식 */
 .h_bottom{
     position:relative;
